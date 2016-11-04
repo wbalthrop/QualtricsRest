@@ -35,6 +35,7 @@ namespace QualtricsRest
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             textBox1.Text = listBox1.SelectedValue.ToString();
+
         }
     }
 }
